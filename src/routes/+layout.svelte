@@ -8,6 +8,6 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
-<AppShell>
+<main class="flex flex-col justify-center items-center h-full">
 	<slot />
-</AppShell>
+</main>
